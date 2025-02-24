@@ -12,7 +12,6 @@ const Contact = () => {
         <p className="text-2xl md:text-3xl text-gray-300">
           Do you want to work together?
         </p>
-       
       </div>
 
       <div className="flex flex-col md:flex-row w-full gap-7  justify-around ">
