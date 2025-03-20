@@ -87,14 +87,7 @@ const Project = () => {
                 <span>
                   <strong> Payments: </strong> Razorpay integration
                 </span>
-                <span>
-                  <strong> Real-Time Features: </strong>
-                  WebSockets for chat and Redis for attendance tracking
-                </span>
-                <span>
-                  <strong>Deployment: </strong>
-                  AWS EC2, Vercel
-                </span>
+          
               </span>
             </div>
           </div>
