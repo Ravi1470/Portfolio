@@ -42,11 +42,13 @@ const ContactForm = () => {
         onSubmit={sendEmail}
         className="border-2 border-gray-700 flex flex-col gap-4 p-3 rounded-lg backdrop-blur-md ">
         <div className="flex flex-col gap-2 ">
-          <label htmlFor="name" className="font-semibold ">
+          <label
+            htmlFor="name"
+            className="font-semibold ">
             Name
           </label>
           <input
-            className="bg-gray-700 bg-opacity-50 rounded-sm h-12 pl-2"
+            className="bg-gray-700 bg-opacity-50 rounded-sm h-12 p-2"
             type="text"
             name="from_name"
             id="name"
@@ -56,11 +58,13 @@ const ContactForm = () => {
           />
         </div>
         <div className="flex flex-col gap-2">
-          <label htmlFor="email" className="font-semibold">
+          <label
+            htmlFor="email"
+            className="font-semibold">
             E-mail
           </label>
           <input
-            className="bg-gray-700  bg-opacity-50 rounded-sm h-12 pl-2"
+            className="bg-gray-700  bg-opacity-50 rounded-sm h-12 p-2"
             type="email"
             name="from_email"
             id="email"
@@ -70,7 +74,9 @@ const ContactForm = () => {
           />
         </div>
         <div className="flex flex-col gap-2">
-          <label className="font-semibold" htmlFor="message">
+          <label
+            className="font-semibold"
+            htmlFor="message">
             Message
           </label>
           <textarea
