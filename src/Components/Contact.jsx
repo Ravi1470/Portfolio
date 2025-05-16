@@ -1,6 +1,5 @@
-import ContactForm from "./ContactForm";
 import github from "../assets/logo/github-logo.jpg";
-import instagram from "../assets/logo/logo-insta.jpg";
+import emailIcon from "../assets/logo/emailIcon.png";
 import linkedin from "../assets/logo/linked-in.jpg";
 
 const Contact = () => {
@@ -15,25 +14,34 @@ const Contact = () => {
       </div>
 
       <div className="flex flex-col md:flex-row w-full gap-7  justify-around ">
-        <div className="flex flex-col flex-wrap justify-center md:w-[40%] gap-7 mt-6">
+        <div className="flex flex-col flex-wrap justify-center md:w-[60%] gap-7 mt-6">
+          <a
+            className="flex items-center gap-4 py-6 px-2 border border-gray-600 rounded-xl bg-gray-800 hover:bg-gray-700 transition-all duration-300"
+            href="mailto:sivaraj@example.com" // Replace with the actual email
+          >
+            <img
+              className="w-14 h-14 rounded-full border-2 border-gray-500 hover:border-white transition-all duration-300"
+              src={emailIcon} // Replace this with your email icon import
+              alt="email"
+            />
+            <span className="text-gray-300 text-lg font-semibold">Sivaraj</span>
+          </a>
           {/* GitHub */}
           <a
-            className="flex items-center gap-4 py-5 px-2  border border-gray-600 rounded-xl bg-gray-800 hover:bg-gray-700 transition-all duration-300"
+            className="flex items-center gap-4 py-6 px-2  border border-gray-600 rounded-xl bg-gray-800 hover:bg-gray-700 transition-all duration-300"
             target="_blank"
-            href="https://github.com/Ravi1470">
+            href="https://github.com/R-SIVARAJ/">
             <img
               className="w-14 h-14 rounded-full border-2 border-gray-500 hover:border-white transition-all duration-300"
               alt="Github"
               src={github}
             />
-            <span className="text-gray-300 text-lg font-semibold">
-              Ravikumar
-            </span>
+            <span className="text-gray-300 text-lg font-semibold">Sivaraj</span>
           </a>
 
           {/* LinkedIn */}
           <a
-            className="flex items-center gap-4  py-5 px-2 border border-gray-600  rounded-xl bg-gray-800 hover:bg-gray-700 transition-all duration-300"
+            className="flex items-center gap-4  py-6 px-2 border border-gray-600  rounded-xl bg-gray-800 hover:bg-gray-700 transition-all duration-300"
             target="_blank"
             href="https://www.linkedin.com/in/vkravi/">
             <img
@@ -41,26 +49,8 @@ const Contact = () => {
               src={linkedin}
               alt="LinkedIn"
             />
-            <span className="text-gray-300 text-lg font-semibold">
-              Ravikumar
-            </span>
+            <span className="text-gray-300 text-lg font-semibold">Sivaraj</span>
           </a>
-          <a
-            className="flex items-center gap-4  py-5 px-2 border border-gray-600  rounded-xl bg-gray-800 hover:bg-gray-700 transition-all duration-300"
-            target="_blank"
-            href="https://www.instagram.com/joy_boy_1470">
-            <img
-              className="w-14 h-14 rounded-full border-2 border-gray-500 hover:border-white transition-all duration-300"
-              src={instagram}
-              alt="instagram"
-            />
-            <span className="text-gray-300 text-lg font-semibold">
-              Ravikumar
-            </span>
-          </a>
-        </div>
-        <div className="md:w-1/2">
-          <ContactForm />
         </div>
       </div>
     </section>

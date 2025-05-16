@@ -10,7 +10,7 @@ const About = () => {
           About Me
         </h2>
         <p className="text-xl md:text-3xl text-justify mb-8">
-          Hello! I'm Ravikumar, a passionate web developer with experience in
+          Hello! I'm Sivaraj, a passionate web developer with experience in
           building responsive and user-friendly websites and applications. I
           specialize in frontend development using modern frameworks like React,
           and I love to experiment with new technologies to improve my skills.
@@ -24,17 +24,13 @@ const About = () => {
               <strong className="text-gray-400 underline decoration-cyan-700 decoration-4 ">
                 Languages:
               </strong>
-              <span className="text-gray-300">
-                Java, Python, JavaScript, TypeScript
-              </span>
+              <span className="text-gray-300">Java, Python,JS</span>
             </div>
             <div className="flex  gap-2 ">
               <strong className="text-gray-400 underline  decoration-cyan-700 decoration-4 ">
                 Frontend:
               </strong>
-              <span className="text-gray-300">
-                React JS, React Query, Tailwind CSS
-              </span>
+              <span className="text-gray-300">Html, Tailwind CSS</span>
             </div>
             <div className="flex  gap-2 ">
               <strong className="text-gray-400 underline  decoration-cyan-700 decoration-4">

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
-import myresume from "../assets/myresume.pdf";
+import myresume from "../assets/Sivaraj_resume.pdf";
+
 const Home = () => {
   return (
     <div
@@ -9,7 +10,7 @@ const Home = () => {
       <div className=" h-3/4 px-6 md:w-full flex flex-col gap-16 items-center">
         <div className="text-center flex gap-2 flex-col">
           <h1 className="text-3xl md:text-5xl font-extrabold text-white">
-            Hi, I'm <span className="">Ravikumar</span>,
+            Hi, I'm <span className="">Sivaraj</span>,
           </h1>
           <h2 className="text-xl md:text-4xl font-semibold text-blue-400">
             a Frontend Developer
@@ -21,7 +22,7 @@ const Home = () => {
         </p>
         <a
           href={myresume}
-          download="Ravikumar.pdf"
+          download="sivaRaj.pdf"
           className="w-5/6 md:w-1/4 py-3 px-2 mt-4 bg-blue-600 hover:bg-blue-700 transition-all duration-300 text-white font-semibold rounded-lg text-center shadow-lg">
           Download Resume
         </a>

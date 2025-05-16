@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className="relative">
       <div className="flex justify-between items-center p-2 md:p-4 bg-gray-800 fixed top-0 right-0 w-full z-50 shadow-md">
-        <h5 className="text-xl text-white font-semibold pl-2">RAVIKUMAR</h5>
+        <h5 className="text-xl text-white font-semibold pl-2">SIVARAJ</h5>
         <button
           onClick={() => setOpen(true)}
           className="md:hidden text-white text-2xl p-2 cursor-pointer">
