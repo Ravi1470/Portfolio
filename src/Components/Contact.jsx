@@ -43,7 +43,7 @@ const Contact = () => {
           <a
             className="flex items-center gap-4  py-6 px-2 border border-gray-600  rounded-xl bg-gray-800 hover:bg-gray-700 transition-all duration-300"
             target="_blank"
-            href="https://www.linkedin.com/in/vkravi/">
+            href="https://www.linkedin.com/in/sivaraj-r-587934306">
             <img
               className="w-14 h-14 rounded-full border-2 border-gray-500 hover:border-white transition-all duration-300"
               src={linkedin}
